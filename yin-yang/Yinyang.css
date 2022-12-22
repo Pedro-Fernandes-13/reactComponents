@@ -1,0 +1,23 @@
+.btn-yingYang{
+  width: 50px;
+  border-radius: 10px;
+  height: 20px;
+  border: 2px solid rgb(50, 197, 241);
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.YingYang{
+  position: absolute;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.title{
+  text-align: center;
+  font-size: 50px;
+}
